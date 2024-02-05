@@ -1,0 +1,681 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-navbar{
+    border: 2px solid black;
+    height: 60px;
+    display: flex;
+    align-content: center;
+    background-color: rgb(19, 19, 25);
+}
+.menubar ul li:hover {
+    border: 1px solid white;
+}
+#logo{
+    margin-top: 5px;
+    width: 130px;
+    height: 50px;
+    
+}
+#logo:hover{
+    border: 1px solid white;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/amazone1.PNG);
+    background-repeat: no-repeat;
+    background-size: 120px;
+}
+.location{
+    margin-top: 5px;
+    width: 130px;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+.location:hover{
+    border: 1px solid white;
+}
+.location span{
+    padding-top: 10px;
+    color: rgb(228, 228, 228);
+    font-size: 0.8em;
+}
+.location p{
+    line-height: 10px;
+    font-size: 1em;
+}
+#search{
+    margin-top: 10px;
+    border-radius: 8px;
+    width:800px;
+    height:40px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.allbtn{
+    height: 100%;
+    width: 7%;
+}
+.allbtn button{
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+.allbtn button a{
+    text-decoration: none;
+    color: black;
+}
+.search{
+    width:86% ;
+    height: 100%;
+}
+.country{
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+.country:hover{
+    border: 1px solid white;
+
+}
+.country span img{
+    height: 20px;
+}
+.country span a{
+    color: white;
+    text-decoration: none;
+}
+.acc{
+    color: white;
+    margin-left: 5px;
+    height: 50px;
+    margin-top: 4px;
+    line-height: 18px;
+    padding-top:7px ;
+}
+.acc:hover{
+    border: 1px solid white;
+}
+.acc span a{
+    text-decoration: none;
+    font-size: 0.8em;
+    color: rgb(228, 228, 228);
+}
+.acc p a{
+    font-size: 1em;
+
+    color: white;
+    text-decoration: none;
+}
+.acc p i{
+    color: grey;
+}
+.order{
+    height: 42px;
+    margin-top: 10px;
+    width: 100px;
+    margin-left: 5px;
+    line-height: 18px;
+}
+.order:hover{
+    border: 1px solid white;
+
+}
+.order span a{
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+    font-size: 0.8em;
+}
+.order p a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+
+}
+.cart{
+    margin-top: 4px;
+    margin-left: 5px;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart:hover{
+    border: 1px solid white;
+
+}
+.cart span{
+    margin: auto;
+}
+.cart span i{
+    color: white;
+}
+.cart span span{
+    color: white;
+}
+.menubar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color:rgb(5, 20, 53) ;
+}
+.menubar ul{
+    list-style: none;
+
+    margin: auto 0px;
+    gap: 50px;
+}
+.menubar ul li{
+    display: inline;
+    margin: 0px 10px;
+}
+.menubar ul li a{
+    color: white;
+    text-decoration: none;
+}
+div.main{
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(228, 221, 221);
+}
+.bg{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
+}
+.cards{
+    margin-top:-350px ;
+    width:100%;
+    height: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card1{
+    height: 400px;
+    width: 24%;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.card1 div.text{
+    width: 100%;
+    height: 10%;
+    font-weight: bold;
+    font-size: larger;
+}   
+.card1 .img{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./assets/pc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card1 div.a{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1 div.a a{
+    text-decoration: none;
+}
+.card1 div.a a:hover{
+    color: orangered;
+}
+.card2{
+    height: 400px;
+    width: 25%;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.card2 div.text{
+    width: 100%;
+    height: 10%;
+    font-weight: bold;
+    font-size: larger;
+}   
+.card2 .img{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./assets/supplies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card2 div.a{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card2 div.a a{
+    text-decoration: none;
+}
+.card2 div.a a:hover{
+    color: orangered;
+}
+.card3{
+    height: 400px;
+    width: 24%;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.card3 div.text{
+    width: 100%;
+    height: 10%;
+    font-weight: bold;
+    font-size: larger;
+}   
+.card3 .img{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./assets/lunar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card3 div.a{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card3 div.a a{
+    text-decoration: none;
+}
+.card3 div.a a:hover{
+    color: orangered;
+}
+.card4{
+    height: 400px;
+    width: 24%;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.card4 div.text{
+    width: 100%;
+    height: 10%;
+    font-weight: bold;
+    font-size: larger;
+}   
+.card4 .img{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./assets/toys.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card4 div.a{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card4 div.a a{
+    text-decoration: none;
+}
+.card4 div.a a:hover{
+    color: orangered;
+}
+.card5{
+    height: 400px;
+    width: 24%;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.card5 div.text{
+    width: 100%;
+    height: 10%;
+    font-weight: bold;
+    font-size: larger;
+}   
+.card5 .img{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./assets/lunar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card5 div.a{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card5 div.a a{
+    text-decoration: none;
+}
+.card5 div.a a:hover{
+    color: orangered;
+}
+.signin{
+    margin-top: -350px;
+    width: 100%;
+    height: 200px;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.signin div{
+    margin: auto;
+    width: 100%;
+    height: 150px;
+    border: 2px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.signin div button{
+    margin-top: 30px;
+    margin-left: -250px;
+    width:250px ;
+    height: 35px;
+    background-color: yellow;
+    
+}
+.signin div span{
+    margin-top:80px ;
+    margin-left: -220px;
+}
+.signin div a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    height: 50px;
+    border: 2px solid rgb(32, 38, 85);
+    background-color: rgb(40, 42, 79);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.top:hover{
+    background-color: rgb(74, 77, 133);
+
+}
+.top a{
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+.know-us{
+    width: 100%;
+    height: 500px;
+    background-color:rgb(22, 23, 44) ;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.know-us .txt1{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 22%;
+    height: 60%;
+
+}
+.know-us .txt1 li.bold{
+    font-size: larger;
+    font-weight: bolder;
+}
+.know-us .txt1 li{
+    list-style: none;
+    color: white;
+}
+.know-us .txt2{
+    margin-top: 10px;
+    width: 25%;
+    height: 60%;
+
+}
+.know-us .txt2 li.bold{
+    font-size: larger;
+    font-weight: bolder;
+}
+.know-us .txt2 li{
+    list-style: none;
+    color: white;
+}
+.know-us .txt3{
+    margin-top: 10px;
+    width: 25%;
+    height: 60%;
+
+}
+.know-us .txt3 li.bold{
+    font-size: larger;
+    font-weight: bolder;
+}
+.know-us .txt3 li{
+    list-style: none;
+    color: white;
+}
+.know-us .txt4{
+    margin-top: 10px;
+    width: 25%;
+    height: 60%;
+
+}
+.know-us .txt4 li.bold{
+    font-size: larger;
+    font-weight: bolder;
+}
+.know-us .txt4 li{
+    list-style: none;
+    color: white;
+}
+.know-us hr{
+    color: white;
+    width: 100%;
+}
+.know-us img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:-50px ;
+    margin-left: 300px;
+    align-items: center;
+    height: 180px;
+}
+.know-us button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    color: white;
+    border: solid white;
+    margin-left: 10px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(7, 7, 34);
+}
+.footer .child{
+    margin-top: 10px;
+    width:150px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.footer .child1 li{
+    list-style: none;
+    margin-left:5px ;
+    line-height: 15px;
+}
+.footer .child1 li a{
+    text-decoration:none ;
+    color: grey;
+    font-size: 0.70em;
+}
+.footer .child1 li a:hover{
+    text-decoration: underline;
+}
+.footer .child1 li span{
+    color: white;
+}
+.footer .child2 li{
+    list-style: none;
+    margin-left:5px ;
+    line-height: 15px;
+}
+.footer .child2 li a{
+    text-decoration:none ;
+    color: grey;
+    font-size: 0.70em;
+}
+.footer .child2 li a:hover{
+    text-decoration: underline;
+}
+.footer .child2 li span{
+    color: white;
+}
+.footer .child3 li{
+    list-style: none;
+    margin-left:5px ;
+    line-height: 15px;
+}
+.footer .child3 li a{
+    text-decoration:none ;
+    color: grey;
+    font-size: 0.70em;
+}
+.footer .child3 li a:hover{
+    text-decoration: underline;
+}
+.footer .child3 li span{
+    color: white;
+}
+.footer .child4 li{
+    list-style: none;
+    margin-left:5px ;
+    line-height: 15px;
+}
+.footer .child4 li a{
+    text-decoration:none ;
+    color: grey;
+    font-size: 0.70em;
+}
+.footer .child4 li a:hover{
+    text-decoration: underline;
+}
+.footer .child4 li span{
+    color: white;
+}
+.footer .child5 li{
+    list-style: none;
+    margin-left:5px ;
+    line-height: 15px;
+}
+.footer .child5 li a{
+    text-decoration:none ;
+    color: grey;
+    font-size: 0.70em;
+}
+.footer .child5 li a:hover{
+    text-decoration: underline;
+}
+.footer .child5 li span{
+    color: white;
+}
+.footer .child6 li{
+    list-style: none;
+    margin-left:5px ;
+    line-height: 15px;
+}
+.footer .child6 li a{
+    text-decoration:none ;
+    color: grey;
+    font-size: 0.70em;
+}
+.footer .child6 li a:hover{
+    text-decoration: underline;
+}
+.footer .child6 li span{
+    color: white;
+}
+.footer .child7 li{
+    list-style: none;
+    margin-left:5px ;
+    line-height: 15px;
+}
+.footer .child7 li a{
+    text-decoration:none ;
+    color: grey;
+    font-size: 0.70em;
+}
+.footer .child7 li a:hover{
+    text-decoration: underline;
+}
+.footer .child7 li span{
+    color: white;
+}
+.end{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.end .end-child{
+    width: 600px;
+    height: 100%;
+}
+.end-child li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+}
+.end-child li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+}
+.end-child p{
+    color: white;
+    font-size: 0.8em;
+    
+}
